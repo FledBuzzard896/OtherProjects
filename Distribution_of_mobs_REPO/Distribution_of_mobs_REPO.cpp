@@ -79,12 +79,14 @@ public:
         if (answer == "Да") {
             vector<string> mobs_Rus = translating_for_RUS(mobs);
             sort(mobs_Rus.begin(), mobs_Rus.end());
+
             for (string elem : mobs_Rus) {
                 cout << elem << ", ";
             }
         }
         else if (answer == "Нет") {
             sort(mobs.begin(), mobs.end());
+
             for (string elem : mobs) {
                 cout << elem << ", ";
             }
