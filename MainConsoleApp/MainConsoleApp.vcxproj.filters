@@ -13,10 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{4754810b-ac9a-411e-a729-1cd0846a0004}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MainConsoleApp.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="C:\Users\Антон\Desktop\pevichcki.txt">
+      <Filter>data</Filter>
+    </Text>
+    <Text Include="C:\Users\Антон\Desktop\questions_for_pevichckes.txt">
+      <Filter>data</Filter>
+    </Text>
   </ItemGroup>
 </Project>
